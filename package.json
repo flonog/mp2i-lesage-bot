@@ -4,7 +4,8 @@
   "description": "Le bot discord des bouffeurs de clavier",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "pwd && tsc && node ./build/main.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/flonog/mp2i-lesage-bot/issues"
   },
-  "homepage": "https://github.com/flonog/mp2i-lesage-bot#readme"
+  "homepage": "https://github.com/flonog/mp2i-lesage-bot#readme",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "htmlparser2": "^8.0.1"
+  }
 }
