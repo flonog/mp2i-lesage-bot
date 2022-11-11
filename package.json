@@ -1,0 +1,19 @@
+{
+  "name": "mp2i-lesage-bot",
+  "version": "0.0.1",
+  "description": "Le bot discord des bouffeurs de clavier",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flonog/mp2i-lesage-bot.git"
+  },
+  "author": "FloLeProto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flonog/mp2i-lesage-bot/issues"
+  },
+  "homepage": "https://github.com/flonog/mp2i-lesage-bot#readme"
+}
